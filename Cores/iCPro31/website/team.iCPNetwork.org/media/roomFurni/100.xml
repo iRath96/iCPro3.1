@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<roomFurni title="Day of huge Chair / Beta Party" creator="iCrack :P" creatorID="1" block="no">
+  <Furniture id="143" x="430" y="350" frame="1" path="item." wMulti="3" hMulti="3" />
+  <Furniture id="143" x="580" y="350" frame="2" path="item." alpha="50" />
+  <Furniture id="143" x="280" y="350" frame="8" path="item." alpha="50" />
+  <Furniture id="160" x="430" y="349" frame="1" path="item." wMulti="4" hMulti="4" realY="400" alpha="50" />
+  <Furniture id="229" x="180" y="325" frame="1" path="item." />
+  <Furniture id="486" x="693" y="195" frame="2" path="item.art." hMulti=".5" wMulti=".5" />
+  <Furniture id="175" x="420" y="75" frame="2" path="item." hMulti="3" wMulti="4" />
+</roomFurni>

@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Sprites/Sprite 470" itemID="4c0abaae-000000c4" sourceFlashFilepath="Sprite 470" lastModified="1275767966">
+  <timeline>
+    <DOMTimeline name="Sprite 470">
+      <layers>
+        <DOMLayer color="#4F80FF">
+          <frames/>
+        </DOMLayer>
+        <DOMLayer color="#4F80FF">
+          <frames/>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" keyMode="8704">
+              <elements>
+                <DOMShape isFloating="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor alpha="0.301960784313725"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1020 45[1020 26 1007 13!1007 13[994 0 975 0!975 0[956 0 943 13!943 13[930 26 930 45!930 45|930 85!930 85[589 100 344 344!344 344[100 589 85 930!85 930|45 930!45 930[26 930 13 943!13 943[0 956 0 975!0 975[0 994 13 1007!13 1007[26 1020
+ 45 1020!45 1020|200 1020!200 1020[272 1020 272 975!272 975[272 684 478 478!478 478[684 272 975 272!975 272[1019 272 1020 200!1020 200|1020 45"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

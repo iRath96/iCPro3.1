@@ -1,0 +1,42 @@
+iFox   =============================
+      __  _______
+     /_/ / _____/
+    __  / /___  ______  __  ____
+   / / / ____/ / __  / /_ |/ __/
+  / / / /     / /_/ / __/   /_
+ /_/ /_/     /_____/ /___/|__/ by Alexander Rath
+=============================
+
+static final class EventListener()
+  (Also usable as System.EventListener *)
+  
+  EventListener::AddListener(mixed $event, callback $callback[, mixed $id])
+    Where $event is the Event Identifier as used in FireEvent
+    and   $callback is the Callback, either as array('Class', 'Method'), 'Class::Method', 'Function' or Closure (just to list a few examples)
+    and   $id is the Identifier, which is optional. If not passed, it will be automatically generated (Numeric)
+    
+    Returns:
+      An Array with these Elements
+      0     => ID of the Callback
+      key   => ID of the Callback
+      1     => Callback itself
+      value => Callback itself
+    
+  EventListener::RemoveListener(mixed $event, callback $callback)
+    Where $event is the Event Identifier as used in FireEvent
+    and   $callback is either the Callback (just Array or String) to delete or the ID of the Callback (all types of Callback)
+    
+    Attention! When you want to delete a Closure, you HAVE TO pass the ID! Comparing Closures in PHP as of Mai, 5th 2010 does NOT work
+    
+  EventListener::FireEvent(mixed $event)
+    Its a bit obvious
+  
+  * Notice:
+  In PHP you can 'always' write Blah.Blah.Class::Method
+  The only difference is, instead of an Array System.EventListener::AddListener(123, 'MyTest') returns 'SystemArray'.
+  Therefore Results of Blah.Class::Method are pretty useless (unless the Method returns a String, and you want to waste CPU by Substringing)
+  Further, its not recommended as it takes more CPU
+  
+  By the way, for those who care; this is how it works:
+  '.' in PHP is the String Append Operator, thats why 'System.EventListener' is the same as '"System" . EventListener'
+  Why 'System' equals to '"System"'? Because its (most likly ;)) an undefined Constant, which is in PHP the same as using a String

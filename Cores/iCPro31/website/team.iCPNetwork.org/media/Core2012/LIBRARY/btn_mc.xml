@@ -1,0 +1,36 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="btn_mc" itemID="4c0ac1c7-0000111a" sourceLibraryItemHRef="Symbol 1" lastModified="1295298720">
+  <timeline>
+    <DOMTimeline name="btn_mc">
+      <layers>
+        <DOMLayer name="Ebene 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor alpha="0.501960784313725"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!1485 -1004[#754.4C #FFFD4E.4F 2018.5 -292!2018.5 -292[#7FE.A1 #FFFF2A.63 2065 -132!2065 -132[2100 #17.26 2100 190!2100 190[2100 890 1485 1383!1485 1383[870 1878 0 1878!0 1878[-870 1878 -1485 1383!-1485 1383[-2100 890 -2100 190!-2100
+ 190[-2100 -510 -1485 -1004!-1485 -1004[-870 -1498 0 -1498!0 -1498[870 -1498 1485 -1004"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

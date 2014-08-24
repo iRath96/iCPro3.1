@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<roomList>
+  <room id="1" max="1000">
+    <name><![CDATA[Lobby]]></name>
+  </room>
+  <room id="2" max="120">
+    <name><![CDATA[Town]]></name>
+    <crumb key="town" />
+  </room>
+  <room id="3" max="80">
+    <name><![CDATA[Coffee]]></name>
+    <crumb key="coffee" />
+  </room>
+  <room id="4" max="80">
+    <name><![CDATA[Book]]></name>
+    <crumb key="book" />
+  </room>
+  <room id="5" max="800">
+    <name><![CDATA[WelcomeSolo]]></name>
+  </room>
+  <room id="6" max="80">
+    <name><![CDATA[Dance]]></name>
+  </room>
+  <room id="7" max="80">
+    <name><![CDATA[Lounge]]></name>
+  </room>
+  <room id="8" max="80">
+    <name><![CDATA[School]]></name>
+  </room>
+  <room id="9" max="80">
+    <name><![CDATA[Shop]]></name>
+  </room>
+  <room id="10" max="80">
+    <name><![CDATA[Village]]></name>
+  </room>
+  <room id="11" max="80">
+    <name><![CDATA[Sport]]></name>
+  </room>
+  <room id="12" max="80">
+    <name><![CDATA[AgentLobbySolo]]></name>
+  </room>
+  <room id="13" max="80">
+    <name><![CDATA[AgentLobbyMulti]]></name>
+  </room>
+  <room id="14" max="80">
+    <name><![CDATA[AgentVr]]></name>
+  </room>
+  <room id="15" max="80">
+    <table id="110" gid="200" />
+    <name><![CDATA[Lodge]]></name>
+  </room>
+  <room id="17" max="80">
+    <name><![CDATA[Mtn]]></name>
+  </room>
+  <room id="16" max="80">
+    <name><![CDATA[Attic]]></name>
+  </room>
+  <room id="19" max="80">
+    <name><![CDATA[Pet]]></name>
+  </room>
+  <room id="18" max="80">
+    <name><![CDATA[Plaza]]></name>
+  </room>
+  <room id="21" max="80">
+    <name><![CDATA[DojoExt]]></name>
+  </room>
+  <room id="20" max="80">
+    <name><![CDATA[Dojo]]></name>
+  </room>
+  <room id="23" max="80">
+    <name><![CDATA[AgentCom]]></name>
+  </room>
+  <room id="22" max="80">
+    <name><![CDATA[DojoHide]]></name>
+  </room>
+  <room id="25" max="80">
+    <name><![CDATA[DojoHideSolo]]></name>
+  </room>
+  <room id="24" max="80">
+    <name><![CDATA[DojoExtSolo]]></name>
+  </room>
+  <room id="27" max="80">
+    <name><![CDATA[Pizza]]></name>
+  </room>
+  <room id="26" max="80">
+    <name><![CDATA[DojoSnow]]></name>
+  </room>
+  <room id="29" max="80">
+    <name><![CDATA[Beach]]></name>
+  </room>
+  <room id="28" max="80">
+    <name><![CDATA[Stage]]></name>
+  </room>
+  <room id="31" max="80">
+    <name><![CDATA[Beacon]]></name>
+  </room>
+  <room id="30" max="80">
+    <name><![CDATA[Light]]></name>
+  </room>
+  <room id="34" max="80">
+    <name><![CDATA[HotelRoof]]></name>
+  </room>
+  <room id="35" max="800">
+    <name><![CDATA[CloudForest]]></name>
+  </room>
+  <room id="32" max="80">
+    <name><![CDATA[HotelLobby]]></name>
+  </room>
+  <room id="33" max="80">
+    <name><![CDATA[HotelSpa]]></name>
+  </room>
+  <room id="38" max="80">
+    <name><![CDATA[Forts]]></name>
+  </room>
+  <room id="39" max="80">
+    <game class="\iCPro\Games\Hockey" />
+    <name><![CDATA[Rink]]></name>
+  </room>
+  <room id="36" max="80">
+    <name><![CDATA[Puffle Playground]]></name>
+  </room>
+  <room id="37" max="80">
+    <name><![CDATA[Dock]]></name>
+  </room>
+  <room id="42" max="80">
+    <name><![CDATA[Berg]]></name>
+  </room>
+  <room id="43" max="80">
+    <name><![CDATA[Cave]]></name>
+  </room>
+  <room id="40" max="80">
+    <name><![CDATA[Agent]]></name>
+  </room>
+  <room id="41" max="80">
+    <name><![CDATA[Boiler]]></name>
+  </room>
+  <room id="46" max="80">
+    <name><![CDATA[Forest]]></name>
+  </room>
+  <room id="47" max="80">
+    <name><![CDATA[Cove]]></name>
+  </room>
+  <room id="44" max="80">
+    <name><![CDATA[Shack]]></name>
+  </room>
+  <room id="45" max="80">
+    <name><![CDATA[Mine]]></name>
+  </room>
+  <room id="51" max="80">
+    <name><![CDATA[Lake]]></name>
+  </room>
+  <room id="50" max="80">
+    <name><![CDATA[Cavemine]]></name>
+  </room>
+  <room id="49" max="80">
+    <name><![CDATA[DojoFire]]></name>
+  </room>
+  <room id="48" max="80">
+    <name><![CDATA[BoxDimension]]></name>
+  </room>
+  <room id="55" max="800">
+    <name><![CDATA[Beans]]></name>
+  </room>
+  <room id="54" max="800">
+    <name><![CDATA[Astro]]></name>
+  </room>
+  <room id="53" max="80">
+    <name><![CDATA[DojoWater]]></name>
+  </room>
+  <room id="52" max="80">
+    <name><![CDATA[Underwater]]></name>
+  </room>
+  <room id="59" max="800">
+    <name><![CDATA[MineCar1]]></name>
+  </room>
+  <room id="58" max="800">
+    <name><![CDATA[Fish]]></name>
+  </room>
+  <room id="57" max="800">
+    <name><![CDATA[Biscuit]]></name>
+  </room>
+  <room id="56" max="800">
+    <name><![CDATA[Puffle]]></name>
+  </room>
+  <room id="63" max="800">
+    <name><![CDATA[ThinIce]]></name>
+  </room>
+  <room id="62" max="800">
+    <name><![CDATA[Mission2]]></name>
+  </room>
+  <room id="61" max="800">
+    <name><![CDATA[Mission1]]></name>
+  </room>
+  <room id="60" max="800">
+    <name><![CDATA[JetPack]]></name>
+  </room>
+  <room id="68" max="800">
+    <name><![CDATA[Mission5]]></name>
+  </room>
+  <room id="69" max="800">
+    <name><![CDATA[Mission6]]></name>
+  </room>
+  <room id="70" max="800">
+    <name><![CDATA[SubGame]]></name>
+  </room>
+  <room id="71" max="800">
+    <name><![CDATA[BookGame1]]></name>
+  </room>
+  <room id="64" max="800">
+    <name><![CDATA[PizzaTron]]></name>
+  </room>
+  <room id="65" max="800">
+    <name><![CDATA[Mission3]]></name>
+  </room>
+  <room id="66" max="800">
+    <name><![CDATA[Wave]]></name>
+  </room>
+  <room id="67" max="800">
+    <name><![CDATA[Mission4]]></name>
+  </room>
+  <room id="76" max="800">
+    <name><![CDATA[Mission9]]></name>
+  </room>
+  <room id="77" max="800">
+    <name><![CDATA[Mission10]]></name>
+  </room>
+  <room id="78" max="80">
+    <name><![CDATA[Game24]]></name>
+  </room>
+  <room id="79" max="80">
+    <name><![CDATA[Game25]]></name>
+  </room>
+  <room id="72" max="800">
+    <name><![CDATA[BookGame2]]></name>
+  </room>
+  <room id="73" max="800">
+    <name><![CDATA[BookGame3]]></name>
+  </room>
+  <room id="74" max="800">
+    <name><![CDATA[Mission7]]></name>
+  </room>
+  <room id="75" max="800">
+    <name><![CDATA[Mission8]]></name>
+  </room>
+  <room id="85" max="800">
+    <name><![CDATA[Feed]]></name>
+  </room>
+  <room id="84" max="800">
+    <name><![CDATA[Bell]]></name>
+  </room>
+  <room id="87" max="800">
+    <name><![CDATA[Paddle]]></name>
+  </room>
+  <room id="86" max="800">
+    <name><![CDATA[Memory]]></name>
+  </room>
+  <room id="81" max="800">
+    <name><![CDATA[Mission11]]></name>
+  </room>
+  <room id="80" max="800">
+    <name><![CDATA[MixMaster]]></name>
+  </room>
+  <room id="83" max="800">
+    <name><![CDATA[Balloon]]></name>
+  </room>
+  <room id="82" max="800">
+    <name><![CDATA[Soaker]]></name>
+  </room>
+  <room id="93" max="800">
+    <name><![CDATA[Dancing]]></name>
+  </room>
+  <room id="92" max="80">
+    <name><![CDATA[Sensei]]></name>
+  </room>
+  <room id="95" max="800">
+    <name><![CDATA[WaterSensei]]></name>
+  </room>
+  <room id="94" max="800">
+    <name><![CDATA[FireSensei]]></name>
+  </room>
+  <room id="89" max="800">
+    <name><![CDATA[Spin]]></name>
+  </room>
+  <room id="88" max="800">
+    <name><![CDATA[Shuffle]]></name>
+  </room>
+  <room id="91" max="800">
+    <name><![CDATA[Defender]]></name>
+  </room>
+  <room id="90" max="800">
+    <name><![CDATA[PuffleRescue]]></name>
+  </room>
+  <room id="102" max="80">
+    <name><![CDATA[Fire]]></name>
+  </room>
+  <room id="100" max="800">
+    <name><![CDATA[SpyDrills]]></name>
+  </room>
+  <room id="101" max="2000">
+    <name><![CDATA[Snow]]></name>
+  </room>
+  <room id="98" max="800">
+    <name><![CDATA[Rollerscape]]></name>
+  </room>
+  <room id="99" max="800">
+    <name><![CDATA[Smoothie]]></name>
+  </room>
+  <room id="96" max="800">
+    <name><![CDATA[PuffleLaunch]]></name>
+  </room>
+  <room id="97" max="800">
+    <name><![CDATA[Bits And Bolts]]></name>
+  </room>
+  <room id="110" max="80">
+    <name><![CDATA[Four1]]></name>
+  </room>
+  <room id="111" max="80">
+    <name><![CDATA[Four2]]></name>
+  </room>
+  <room id="108" max="80">
+    <name><![CDATA[Mancala4]]></name>
+  </room>
+  <room id="109" max="80">
+    <name><![CDATA[Four0]]></name>
+  </room>
+  <room id="106" max="80">
+    <name><![CDATA[Mancala2]]></name>
+  </room>
+  <room id="107" max="80">
+    <name><![CDATA[Mancala3]]></name>
+  </room>
+  <room id="104" max="80">
+    <name><![CDATA[Mancala0]]></name>
+  </room>
+  <room id="105" max="80">
+    <name><![CDATA[Mancala1]]></name>
+  </room>
+  <room id="119" max="80">
+    <name><![CDATA[Treasure1]]></name>
+  </room>
+  <room id="118" max="80">
+    <name><![CDATA[Treasure0]]></name>
+  </room>
+  <room id="117" max="80">
+    <name><![CDATA[Four8]]></name>
+  </room>
+  <room id="116" max="80">
+    <name><![CDATA[Four7]]></name>
+  </room>
+  <room id="115" max="80">
+    <name><![CDATA[Four6]]></name>
+  </room>
+  <room id="114" max="80">
+    <name><![CDATA[Four5]]></name>
+  </room>
+  <room id="113" max="80">
+    <name><![CDATA[Four4]]></name>
+  </room>
+  <room id="112" max="80">
+    <name><![CDATA[Four3]]></name>
+  </room>
+  <room id="126" max="80">
+    <name><![CDATA[Treasure8]]></name>
+  </room>
+  <room id="125" max="80">
+    <name><![CDATA[Treasure7]]></name>
+  </room>
+  <room id="124" max="80">
+    <name><![CDATA[Treasure6]]></name>
+  </room>
+  <room id="123" max="80">
+    <name><![CDATA[Treasure5]]></name>
+  </room>
+  <room id="122" max="80">
+    <name><![CDATA[Treasure4]]></name>
+  </room>
+  <room id="121" max="80">
+    <name><![CDATA[Treasure3]]></name>
+  </room>
+  <room id="120" max="80">
+    <name><![CDATA[Treasure2]]></name>
+  </room>
+</roomList>

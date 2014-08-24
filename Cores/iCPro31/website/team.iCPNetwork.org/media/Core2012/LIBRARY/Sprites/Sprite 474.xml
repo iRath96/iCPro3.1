@@ -1,0 +1,329 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Sprites/Sprite 474" itemID="4c0abaae-000000c3" sourceFlashFilepath="../../../../../../CPClient/agentlobbymulti/Sprites/Sprite 476.fla" sourceLibraryItemHRef="Sprites/Sprite 474" sourceLastModified="1275767966" lastModified="1275767966">
+  <timeline>
+    <DOMTimeline name="Sprite 474">
+      <layers>
+        <DOMLayer name="Script 0" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" keyMode="8704">
+              <Actionscript>
+                <script><![CDATA[
+gotoAndPlay(1);]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="49" keyMode="8704">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name=" 1" color="#4F80FF">
+          <frames/>
+        </DOMLayer>
+        <DOMLayer name=" 0" color="#4F80FF">
+          <frames/>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" duration="3" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" duration="3" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.998687744140625" b="-0.048004150390625" c="0.048004150390625" d="0.998687744140625" tx="-2.3" ty="2.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" duration="3" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.995071411132812" b="-0.09588623046875" c="0.09588623046875" d="0.995071411132812" tx="-4.4" ty="4.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" duration="3" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.989166259765625" b="-0.1435546875" c="0.1435546875" d="0.989166259765625" tx="-6.45" ty="7.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="3" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.980972290039062" b="-0.190902709960938" c="0.190902709960938" d="0.980972290039062" tx="-8.35" ty="10.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="3" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.970535278320312" b="-0.23779296875" c="0.23779296875" d="0.970535278320312" tx="-10.1" ty="12.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" duration="2" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.957839965820312" b="-0.284149169921875" c="0.284149169921875" d="0.957839965820312" tx="-11.75" ty="15.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" duration="2" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.948501586914062" b="-0.313644409179688" c="0.313644409179688" d="0.948501586914062" tx="-12.7" ty="17.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="2" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.938262939453125" b="-0.342849731445312" c="0.342849731445312" d="0.938262939453125" tx="-13.65" ty="19.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="2" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.925888061523438" b="-0.374771118164062" c="0.374771118164062" d="0.925888061523438" tx="-14.6" ty="21.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="26" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.913742065429688" b="-0.40325927734375" c="0.40325927734375" d="0.913742065429688" tx="-15.35" ty="23.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="27" keyMode="8704">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.906661987304688" b="-0.418838500976562" c="0.418838500976562" d="0.906661987304688" tx="-15.8" ty="24.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="2" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.9007568359375" b="-0.431350708007812" c="0.431350708007812" d="0.9007568359375" tx="-16.1" ty="25.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="30" duration="3" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.8853759765625" b="-0.461944580078125" c="0.461944580078125" d="0.8853759765625" tx="-16.85" ty="27.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="33" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.862045288085938" b="-0.50396728515625" c="0.50396728515625" d="0.862045288085938" tx="-17.75" ty="31.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="34" keyMode="8704">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.854949951171875" b="-0.515853881835938" c="0.515853881835938" d="0.854949951171875" tx="-17.95" ty="32.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="35" keyMode="8704">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.845962524414062" b="-0.530426025390625" c="0.530426025390625" d="0.845962524414062" tx="-18.3" ty="33.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="36" keyMode="8704">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.836715698242188" b="-0.544845581054688" c="0.544845581054688" d="0.836715698242188" tx="-18.55" ty="34.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="37" duration="2" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.829071044921875" b="-0.556381225585938" c="0.556381225585938" d="0.829071044921875" tx="-18.7" ty="35.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="39" duration="4" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.809478759765625" b="-0.58447265625" c="0.58447265625" d="0.809478759765625" tx="-19.1" ty="37.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="43" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.771636962890625" b="-0.633499145507812" c="0.633499145507812" d="0.771636962890625" tx="-19.7" ty="41.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="44" keyMode="8704">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.760650634765625" b="-0.646636962890625" c="0.646636962890625" d="0.760650634765625" tx="-19.75" ty="42.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="45" duration="3" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.749435424804688" b="-0.659576416015625" c="0.659576416015625" d="0.749435424804688" tx="-19.85" ty="44.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="48" tweenType="motion" keyMode="17921">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.716796875" b="-0.694900512695312" c="0.694900512695312" d="0.716796875" tx="-20" ty="47.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="49" keyMode="8704">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 473" name="">
+                  <matrix>
+                    <Matrix a="0.707107543945312" b="-0.707107543945312" c="0.707107543945312" d="0.707107543945312" tx="-20.1" ty="48.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

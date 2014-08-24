@@ -1,0 +1,98 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="admin_mc" itemID="4c0abd7e-00000b65" sourceLibraryItemHRef="Symbol 1" lastModified="1295298747" lastUniqueIdentifier="5">
+  <timeline>
+    <DOMTimeline name="admin_mc">
+      <layers>
+        <DOMLayer name="Ebene 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements>
+                <DOMSymbolInstance libraryItemName="target_mc" name="" centerPoint3DX="-46.9" centerPoint3DY="-58.2">
+                  <matrix>
+                    <Matrix tx="-46.85" ty="-58.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="target_mc" name="" centerPoint3DX="49.4" centerPoint3DY="38.3">
+                  <matrix>
+                    <Matrix a="-1" d="-1" tx="49.35" ty="38.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="adminBG_mc" name="" centerPoint3DX="25.05" centerPoint3DY="-66.6">
+                  <matrix>
+                    <Matrix tx="25.05" ty="-66.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.30078125"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMStaticText selected="true" width="78.2" height="10" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-12.2" ty="-71.1"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Staff</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="10" face="BurbankBigWide-Medium" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();this._x = -1000;]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Ebene 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="btn_mc" name="block_mc" centerPoint3DX="2.65" centerPoint3DY="-16.2">
+                  <matrix>
+                    <Matrix tx="2.65" ty="-16.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <Actionscript>
+                    <script><![CDATA[onClipEvent(load) {	this.onRelease = this.onClick = this.onPress = this.onMouseDown = function() {};	this.useHandCursor = false;}]]></script>
+                  </Actionscript>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Kopie von btn_mc" name="snowblock_mc" centerPoint3DX="2.65" centerPoint3DY="-16.2">
+                  <matrix>
+                    <Matrix a="0.904754638671875" d="0.881515502929688" tx="2.65" ty="-16.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.25"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

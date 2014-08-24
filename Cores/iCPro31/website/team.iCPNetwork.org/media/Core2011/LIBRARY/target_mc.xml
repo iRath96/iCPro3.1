@@ -1,0 +1,61 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="target_mc" itemID="4c0abaf4-00000b39" sourceFlashFilepath="../../../../../../CPClient/agentlobbymulti/Sprites/Sprite 476.fla" sourceLibraryItemHRef="target_mc" sourceLastModified="1275771791" lastModified="1275771933" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="target_mc">
+      <layers>
+        <DOMLayer name="Ebene 3" color="#FF800A" locked="true" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#00FF00"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!990 4S2|990 990!990 990|4 990!4 990|4 975!4 975[4 572 287 287!287 287[572 4 975 4!975 4|990 4"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Ebene 1" color="#4FFF4F" parentLayerIndex="0" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="1.5">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!975 45|975 222!975 222[881 222 795 242!795 242[596 288 442 442!442 442[296 589 247 775!247 775[222 870 222 975!222 975|45 975"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 470" name="" selected="true" centerPoint3DX="25.5" centerPoint3DY="25.5">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sprites/Sprite 474" name="" centerPoint3DX="41.15" centerPoint3DY="25.05">
+                  <matrix>
+                    <Matrix tx="0.3" ty="0.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

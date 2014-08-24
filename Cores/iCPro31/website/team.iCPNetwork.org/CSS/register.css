@@ -1,0 +1,67 @@
+body {
+  font:       62.5% 'Trebuchet MS', sans-serif;
+  margin:     20px;
+  background: url(../Images/Background.png) repeat-x #FFF;
+}
+
+#registerLink {
+  padding:        .4em 1em .4em 20px;
+  text-decoration: none;
+  position:        relative;
+}
+
+#registerLink span.ui-icon {
+  margin:      0 5px 0 0;
+  position:    absolute;
+  left:       .2em;
+  top:         50%;
+  margin-top: -8px;
+}
+
+ul#icons {
+  margin:  0;
+  padding: 0;
+}
+
+ul#icons li {
+  margin:     2px;
+  position:   relative;
+  padding:    4px 0;
+  cursor:     pointer;
+  float:      left;
+  list-style: none;
+}
+
+ul#icons span.ui-icon {
+  float:  left;
+  margin: 0 4px;
+}
+
+#statusBar {
+  padding: 0 .7em;
+}
+
+#content {
+  border:     1px solid #DDD;
+  background: #FAFAFA;
+  padding:    4px 6px 6px 5px;
+}
+
+.fieldNotice {
+  margin-top:   5px;
+  margin-left: -3px;
+  font-size:   .8em;
+}
+
+.fieldNoticeOkay {
+  color: #080;
+}
+
+.fieldNoticeFail {
+  color: #A00;
+}
+
+#registerBox input {
+  width:  100%;
+  margin: 1px -3px;
+}

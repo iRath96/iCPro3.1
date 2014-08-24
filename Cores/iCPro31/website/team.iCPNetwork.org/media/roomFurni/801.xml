@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<roomFurni title="Coming soon" creator="iCrack feat. Lofhy" creatorID="lolwut?" block="no">
+  <Furniture id="565" x="450" y="100" frame="1" path="item.art." realY="300" />
+  <Furniture id="566" x="451" y="280" frame="1" path="item.art." />
+  <Furniture id="566" x="445.5" y="276" frame="1" path="item.art." />
+  <Furniture id="566" x="439" y="272" frame="1" path="item.art." />
+  <Furniture id="566" x="457" y="276" frame="1" path="item.art." />
+  <Furniture id="566" x="462" y="272" frame="1" path="item.art." />
+  <Furniture id="566" x="462" y="172" frame="1" path="item.art." wMulti="10" hMulti="10" realY="125" />
+  <Furniture id="486" x="693" y="195" frame="2" path="item.art." hMulti=".5" wMulti=".5" />
+  <Furniture id="486" x="215" y="120" frame="2" path="item.art." hMulti=".75" wMulti=".75" />
+</roomFurni>

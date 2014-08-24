@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<roomFurni creator="iCrack :P" creatorID="1" block="yes">
+  <Furniture id="123" x="000" y="375" frame="1" />
+  <Furniture id="223" x="100" y="375" frame="2" />
+  <Furniture id="323" x="200" y="375" frame="1" />
+  <Furniture id="423" x="300" y="375" frame="2" />
+  <Furniture id="523" x="400" y="375" frame="1" />
+  <Furniture id="623" x="500" y="375" frame="2" />
+  <Furniture id="723" x="600" y="375" frame="1" />
+  <Furniture id="823" x="700" y="375" frame="2" />
+  <Furniture id="923" x="800" y="375" frame="1" />
+</roomFurni>

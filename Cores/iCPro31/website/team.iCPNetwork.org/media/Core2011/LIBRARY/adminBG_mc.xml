@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="adminBG_mc" itemID="4c0abc83-00000b62" sourceLibraryItemHRef="Symbol 1" lastModified="1295210464">
+  <timeline>
+    <DOMTimeline name="adminBG_mc">
+      <layers>
+        <DOMLayer name="Ebene 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText width="131.75" height="10" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-37.75" ty="-5.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Creator</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="10" face="BurbankBigWide-Medium"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <DropShadowFilter blurX="2" blurY="2" distance="0" quality="3" strength="40"/>
+                  </filters>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

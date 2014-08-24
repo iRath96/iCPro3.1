@@ -1,0 +1,50 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Sprites/Sprite 473" itemID="4c0abaae-000000c2" sourceFlashFilepath="../../../../../../CPClient/agentlobbymulti/Sprites/Sprite 476.fla" sourceLibraryItemHRef="Sprites/Sprite 473" sourceLastModified="1275767966" lastModified="1275767966">
+  <timeline>
+    <DOMTimeline name="Sprite 473">
+      <layers>
+        <DOMLayer color="#4F80FF">
+          <frames/>
+        </DOMLayer>
+        <DOMLayer color="#4F80FF">
+          <frames/>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" keyMode="8704">
+              <elements>
+                <DOMShape isFloating="true">
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="1.5">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                    <StrokeStyle index="2">
+                      <SolidStroke scaleMode="normal" weight="1.5">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!1260 170|1227 260!1328 199|1288 285!1517 318|1453 393!1457 273|1402 352!1394 233|1346 316!1188 148|1163 241"/>
+                    <Edge strokeStyle="2" edges="!969 86|969 217"/>
+                    <Edge strokeStyle="1" edges="!818 128|836 228!1117 132|1100 228!1044 122|1035 220!893 117|901 220!417 316|482 394!745 145|771 242!674 167|708 261!606 196|647 286!476 271|534 354!540 231|589 317!311 422|389 488!126 824|226 842!141 751|239 778!117 898|218 907!225 544
+|313 595"/>
+                    <Edge strokeStyle="2" edges="
+!162 680|258 715!190 610|283 653!343 344|436 437"/>
+                    <Edge strokeStyle="1" edges="
+!266 481|349 540"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

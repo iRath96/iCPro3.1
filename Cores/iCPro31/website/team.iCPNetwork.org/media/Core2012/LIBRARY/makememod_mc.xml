@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="makememod_mc" itemID="4c17d32c-0000279d" sourceLibraryItemHRef="Symbol 1" lastModified="1276629811">
+  <timeline>
+    <DOMTimeline name="makememod_mc">
+      <layers>
+        <DOMLayer name="Ebene 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient>
+                        <matrix>
+                          <Matrix a="0.06195068359375" d="0.06195068359375"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" ratio="0"/>
+                        <GradientEntry color="#CCCCCC" ratio="1"/>
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!740 -520|740 -640!740 -640[740 -740 640 -740!640 -740|520 -740!520 -740|520 -520!520 -520|740 -520"/>
+                    <Edge cubics="!740 -640(740,-640;740,-707 707,-740 640,-740q740 -640Q740 -740q640 -740)640,-740;"/>
+                    <Edge cubics="!640 740(;707,740 740,707 740,640q640 740Q740 740q740 640)740,640;"/>
+                    <Edge cubics="!740 640(;740,640 740,-520 740,-520q740 640 740 -520);"/>
+                    <Edge cubics="!740 -520(;740,-520 740,-640 740,-640q740 -520 740 -640);"/>
+                    <Edge cubics="!-640 -740(;-707,-740 -740,-707 -740,-640q-640 -740Q-740 -740q-740 -640);"/>
+                    <Edge cubics="!-740 640(;-740,707 -707,740 -640,740q-740 640Q-740 740q-640 740);"/>
+                    <Edge cubics="!-740 -640(;-740,-640 -740,640 -740,640q-740 -640 -740 640);"/>
+                    <Edge cubics="!640 -740(;640,-740 520,-740 520,-740q640 -740 520 -740);"/>
+                    <Edge cubics="!520 -740(;520,-740 -640,-740 -640,-740q520 -740 -640 -740);"/>
+                    <Edge cubics="!-640 740(;-640,740 520,740 520,740q-640 740 520 740);"/>
+                    <Edge cubics="!520 740(;520,740 640,740 640,740q520 740 640 740);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

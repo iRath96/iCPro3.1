@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<roomFurni title="Maze of Dock" creator="iCrack :P" creatorID="1" block="yes">
+  <Furniture id="443" x="650" y="150" frame="1" path="item." />
+  <Furniture id="443" x="650" y="198" frame="1" path="item." />
+  <Furniture id="443" x="584" y="150" frame="1" path="item." />
+  <Furniture id="443" x="527" y="158" frame="3" path="item." />
+  <Furniture id="443" x="527" y="182" frame="2" path="item." />
+</roomFurni>

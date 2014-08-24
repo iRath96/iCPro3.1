@@ -1,0 +1,83 @@
+Request: <body rid='2136403442' xmlns='http://jabber.org/protocol/httpbind' to='d' xml:lang='en' wait='120' hold='1' content='text/xml; charset=utf-8' ver='1.6' xmpp:version='1.0' xmlns:xmpp='urn:xmpp:xbosh'/>
+Response: <body sid="5f148992-379f-4b9e-9535-0b64262400f9" xmlns:xmpp="urn:xmpp:xbosh" wait="120" inactivity="120" from="d" xmpp:version="1.0" maxpause="120" ver="1.6" xmlns:stream="http://etherx.jabber.org/streams" authid="8027874f-ccd2-455f-af56-7730a5c2e144" secure="true" xmlns="http://jabber.org/protocol/httpbind" hold="1" ack="2136403442" polling="10" requests="2"/>
+
+Request: <body rid='2136403443' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'/>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403443" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"><stream:features xmlns="jabber:client"><ver xmlns="urn:xmpp:features:rosterver"/><starttls xmlns="urn:ietf:params:xml:ns:xmpp-tls"/><mechanisms xmlns="urn:ietf:params:xml:ns:xmpp-sasl"><mechanism>PLAIN</mechanism><mechanism>ANONYMOUS</mechanism></mechanisms></stream:features></body>
+
+Request: <body rid='2136403444' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'><auth xmlns='urn:ietf:params:xml:ns:xmpp-sasl' mechanism='PLAIN'>ezQxMmU4N2Y4LWNkNzAtNDkwOS1iZTA1LTdhMWU3M2U1YTE4YX1AZAB7NDEyZTg3ZjgtY2Q3MC00OTA5LWJlMDUtN2ExZTczZTVhMThhfQAyMjc2NjAxODZ8ezQxMmU4N2Y4LWNkNzAtNDkwOS1iZTA1LTdhMWU3M2U1YTE4YX18YWxleHJhdGh8NzAyNDNmZTk1NTExODk3NmI4Njg4ODM4ZDdhNDVmNDd8MXwxfDB8ZmFsc2V8ZmFsc2V8MTM5ODYyMzIwODk3NyMxOGM3NTkwNjg4YzVhYmQwYmQ5MzU5OTczNzM0MWRkZTc3NTA5Mjdm</auth></body>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403444" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"><success xmlns="urn:ietf:params:xml:ns:xmpp-sasl"/></body>
+
+Request: <body rid='2136403445' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9' to='d' xml:lang='en' xmpp:restart='true' xmlns:xmpp='urn:xmpp:xbosh'/>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403445" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"><stream:features xmlns="jabber:client"><ver xmlns="urn:xmpp:features:rosterver"/><starttls xmlns="urn:ietf:params:xml:ns:xmpp-tls"/><session xmlns="urn:ietf:params:xml:ns:xmpp-session"/><bind xmlns="urn:ietf:params:xml:ns:xmpp-bind"/></stream:features></body>
+
+Request: <body rid='2136403446' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'><iq type='set' id='_bind_auth_2' xmlns='jabber:client'><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'/></iq></body>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403446" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"><iq xmlns="jabber:client" type="result" id="_bind_auth_2" to="{412e87f8-cd70-4909-be05-7a1e73e5a18a}@d/tigase-837581"><bind xmlns="urn:ietf:params:xml:ns:xmpp-bind"><jid>{412e87f8-cd70-4909-be05-7a1e73e5a18a}@d/tigase-837581</jid></bind></iq></body>
+
+Request: <body rid='2136403447' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'><iq type='set' id='_session_auth_2' xmlns='jabber:client'><session xmlns='urn:ietf:params:xml:ns:xmpp-session'/></iq></body>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403447" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"><iq xmlns="jabber:client" type="result" id="_session_auth_2" to="{412e87f8-cd70-4909-be05-7a1e73e5a18a}@d/tigase-837581"/></body>
+
+Request: <body rid='2136403448' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'><iq type='get' id='8323' xmlns='jabber:client'><query xmlns='jabber:iq:roster'/></iq><iq type='get' id='8324' xmlns='jabber:client'><query xmlns='disney:friends:ignore'/></iq><iq type='get' id='8325' xmlns='jabber:client'><query xmlns='disney:friends:setting'/></iq></body>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403447" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"><iq xmlns="jabber:client" type="result" id="_session_auth_2" to="{412e87f8-cd70-4909-be05-7a1e73e5a18a}@d/tigase-837581"/></body>
+
+Request: <body rid='2136403449' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'/>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403449" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"><iq xmlns="jabber:client" type="result" id="8323" to="{412e87f8-cd70-4909-be05-7a1e73e5a18a}@d/tigase-837581"><query xmlns="jabber:iq:roster"><item subscription="none" ask="subscribe" jid="{7bd88f22-3b07-4e45-a33c-a7b28d807eb0}@d" name="Pcprofi|P9160908"/><item subscription="none" ask="subscribe" jid="{e448ebd3-5a59-4649-8db7-5bf433cb9b38}@d" name="Lofhy2|P69617843"/><item subscription="both" jid="{49b50c81-24e6-487b-a43c-6ba65737c102}@d" name="Paper121|P16547245"/><item subscription="both" jid="{9b0b5f95-75d2-4a3a-9981-febbbb320812}@d" name="Guertin2boy|P155290638"/></query></iq><iq xmlns="jabber:client" type="result" id="8325" to="{412e87f8-cd70-4909-be05-7a1e73e5a18a}@d/tigase-837581"><query xmlns="disney:friends:setting"><setting name="fe" value="true"/><setting name="na" value="true"/></query></iq></body>
+
+Request: <body rid='2136403450' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'><iq type='get' id='8326' xmlns='jabber:client'><query xmlns='disney:ordering:priority'/></iq><iq type='get' id='8327' xmlns='jabber:client'><query xmlns='disney:friends:character:roster'/></iq><presence xmlns='jabber:client'/></body>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403450" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"><iq xmlns="jabber:client" type="result" id="8326" to="{412e87f8-cd70-4909-be05-7a1e73e5a18a}@d/tigase-837581"><query xmlns="disney:ordering:priority"><item id="{49b50c81-24e6-487b-a43c-6ba65737c102}" weight="14"/></query></iq></body>
+
+Request: <body rid='2136403451' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'/>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403451" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"><presence xmlns="jabber:client" to="{412e87f8-cd70-4909-be05-7a1e73e5a18a}@d" from="{412e87f8-cd70-4909-be05-7a1e73e5a18a}@d/tigase-837581"/><iq xmlns="jabber:client" to="{412e87f8-cd70-4909-be05-7a1e73e5a18a}@d/tigase-837581" type="result" id="8327" name="8327"><query xmlns="disney:friends:character:roster"/></iq></body>
+
+Request: <body rid='2136403452' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'/>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403452" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"/>
+
+Request: <body rid='2136403453' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'><presence xmlns='jabber:client'><land xmlns='disney:land:clubpenguin'><id>227660186</id><world>3160</world><room>300</room></land></presence></body>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403453" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"><presence xmlns="jabber:client" to="{412e87f8-cd70-4909-be05-7a1e73e5a18a}@d" from="{412e87f8-cd70-4909-be05-7a1e73e5a18a}@d/tigase-837581"><land xmlns="disney:land:clubpenguin"><id>227660186</id><world>3160</world><room>300</room></land></presence></body>
+
+Request: <body rid='2136403454' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'/>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403454" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"/>
+
+Request: <body rid='2136403455' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'><presence to='{e0c54031-f28f-497b-a064-5e963c51c58d}@d' type='subscribe' xmlns='jabber:client'/></body>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403455" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"><presence xmlns="jabber:client" type="error" from="{412e87f8-cd70-4909-be05-7a1e73e5a18a}@d/tigase-837581" to="{e0c54031-f28f-497b-a064-5e963c51c58d}@d"><presence xmlns="jabber:client" to="{e0c54031-f28f-497b-a064-5e963c51c58d}@d" type="subscribe" from="{412e87f8-cd70-4909-be05-7a1e73e5a18a}@d/tigase-837581"/><error code="15"/></presence></body>
+
+Request: <body rid='2136403456' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'/>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403456" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"/>
+
+Request: <body rid='2136403457' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'/>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403457" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"/>
+
+Request: <body rid='2136403458' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'/>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403458" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"><presence xmlns="jabber:client" to="{412e87f8-cd70-4909-be05-7a1e73e5a18a}@d" type="subscribe" from="{0cc48f65-3369-47f8-9cd6-3fcf74404dfb}@d"><nick xmlns="http://jabber.org/protocol/nick">Nekobro|P197230184</nick></presence></body>
+
+Request: <body rid='2136403459' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'/>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403459" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"><presence xmlns="jabber:client" to="{412e87f8-cd70-4909-be05-7a1e73e5a18a}@d" type="subscribe" from="{0cc48f65-3369-47f8-9cd6-3fcf74404dfb}@d"><nick xmlns="http://jabber.org/protocol/nick">Nekobro|P197230184</nick></presence></body>
+
+Request: <body rid='2136403460' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'/>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403460" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"/>
+
+Request: <body rid='2136403461' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'><presence to='{0cc48f65-3369-47f8-9cd6-3fcf74404dfb}@d' type='subscribed' xmlns='jabber:client'/></body>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403461" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"><iq xmlns="jabber:client" type="set" id="rsttig1" to="{412e87f8-cd70-4909-be05-7a1e73e5a18a}@d/tigase-837581"><query ver="5fdc22d038bec84ca5e5a1c6fb1475fe" xmlns="jabber:iq:roster"><item subscription="both" jid="{0cc48f65-3369-47f8-9cd6-3fcf74404dfb}@d" name="Nekobro|P197230184"/></query></iq></body>
+
+Request: <body rid='2136403462' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'><iq type='result' id='rsttig1' xmlns='jabber:client'/></body>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403462" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"><presence xmlns="jabber:client" to="{412e87f8-cd70-4909-be05-7a1e73e5a18a}@d" from="{0cc48f65-3369-47f8-9cd6-3fcf74404dfb}@d/tigase-837892"><land xmlns="disney:land:clubpenguin"><id>197230184</id><room>300</room><world>3160</world></land></presence></body>
+
+Request: <body rid='2136403463' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'/>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403463" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"/>
+
+Request: <body rid='2136403464' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'/>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403464" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"/>
+
+Request: <body rid='2136403465' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'/>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403465" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"/>
+
+Request: <body rid='2136403466' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'/>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403466" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"/>
+
+Request: <body rid='2136403467' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'/>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403467" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"/>
+
+Request: <body rid='2136403468' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'/>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403468" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"/>
+
+Request: <body rid='2136403469' xmlns='http://jabber.org/protocol/httpbind' sid='5f148992-379f-4b9e-9535-0b64262400f9'/>
+Response: <body xmlns="http://jabber.org/protocol/httpbind" secure="true" xmlns:xmpp="urn:xmpp:xbosh" ack="2136403469" xmlns:stream="http://etherx.jabber.org/streams" from="d" xmpp:version="1.0"/>

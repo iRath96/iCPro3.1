@@ -1,0 +1,75 @@
+iFox   =============================
+      __  _______
+     /_/ / _____/
+    __  / /___  ______  __  ____
+   / / / ____/ / __  / /_ |/ __/
+  / / / /     / /_/ / __/   /_
+ /_/ /_/     /_____/ /___/|__/ by Alexander Rath
+=============================
+
+Debugger (extends TalkingObject)
+  Used to Debug Messages like '12:34:56.789 - [ INFO ] > This is an Example' to the Screen.
+  
+  Enums:
+    DebugFlags
+      J_NONE    (0)         Used to debug Nothing
+      J_SEVERE  (1)         Used to only debug severe Errors
+      J_WARNING (2)         Used to debug Warnings only
+      J_INFO    (4)         
+      J_CONFIG  (8)         .
+      J_FINE    (16)        :
+      J_FINER   (32)        
+      J_FINEST  (64)        All those equal to SmartFox
+      
+      These are the Sums:
+      J_NONE    (0)         Used to debug Nothing
+      J_SEVERE  (1)         Used to only debug severe Errors
+      J_WARNING (3)         Used to debug Warnings only AND SEVERE ERRORS
+      J_INFO    (7)         
+      J_CONFIG  (15)        .
+      J_FINE    (31)        :
+      J_FINER   (63)        
+      J_FINEST  (127)       All those equal to SmartFox
+  
+  Constants
+    DEFAULT_DEBUGLEVEL      Equals to DebugFlags::D_WARNING
+    DEFAULT_LFILELEVEL      Equals to DebugFlags::D_SEVERE
+    DEFAULT_TIMEFORMAT      Equals to (Day).(Month).(Year) (Hour):(Minute):(Second).(MilliSeconds)
+    DEFAULT_MAINFORMAT      Equals to (TimeStamp) - [ (DebugLevel) ] > (Message)
+    DEFAULT_FILEFORLOG      Equals to DebugFile.txt
+  
+  Public Variables:
+    $debugLevel             This contains the Debug Level, specified as one of the DebugFlags Constants
+    $lFileLevel             As above, just for File Logging
+    $timeFormat             Used for the Timestamp which is displayed
+    $mainFormat             The Main Format (in Format as sprintf)
+    $fileForLog             The File Path for the Log File
+    
+  Public Functions:
+    setDebugLevel(int $level)       Bit obvious, noticing that $level has to be any kind of combination with DebugFlags
+    setLFileLevel(int $level)       Same as above, just for File Logging
+    setTimeFormat(str $format)      A bit obvious
+    setMainFormat(str $format)      A bit obvious
+    setFileForLog(str $file)        Cmon!
+    
+    getDebugLevel()                 Just guess...
+    getLFileLevel()                 ... obvious ...
+    getTimeFormat()                 ... and again ...
+    getMainFormat()                 ... its obvious ...
+    getFileForLog()                 ... soooo obvious ...
+    
+    debug(int $level, str $message[, bool $reset*])    Where $level has to be one of DebugFlags::J_{Blah}, $reset is set to TRUE on default
+    levelToString(int $level)                          As above, $level has to be one of DebugFlags::J_{Blah}, if its not, 'FAIL' is returned
+  
+  * Notice:
+    The Debugger parses the $message as HTML (Kind of)! (Just on UNIX)
+    Which means, you can pass something like:
+    '<inverse><blink>Whats</blink></inverse> <key>up</key>? <u>The <b>Sky</b>!</u>'
+    
+    If $reset is not set to false, <reset> will added to the end.
+    <reset> automatically closes all tags
+    
+    Soon to come: Colors!
+    
+  
+?>

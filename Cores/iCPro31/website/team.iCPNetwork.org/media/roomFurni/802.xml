@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<roomFurni title="What the... ?" creator="Lofhy" creatorID="?" block="no">
+  <Furniture id="486" x="0" y="10" frame="2" path="item.art." base="game_mc.puck_mc." />
+</roomFurni>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<roomFurni title="Snow" creator="iClover" creatorID="lolwut?" block="invert" startX="50" startY="150">
+  <Furniture id="52" x="230" y="95" frame="8" path="item." />
+  <Furniture id="53" x="350" y="250" frame="2" path="item." />
+  <Furniture id="250" x="50" y="150" frame="2" path="item." />
+  <Furniture id="607" x="30" y="200" frame="2" path="item." />
+  <Furniture id="607" x="365" y="195" frame="2" path="item." hMulti="5" wMulti="5" />
+</roomFurni>
