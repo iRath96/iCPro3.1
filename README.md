@@ -1,6 +1,6 @@
 iCPro3.1
 ========
-This is a CPPS.
+**This code has not been maintained since over three years and only available for legacy reasons.**
 
 Run using
 
